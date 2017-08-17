@@ -20,7 +20,15 @@ fcitx：
     curl -#C - -O https://raw.githubusercontent.com/levinit/fcitx-emoji/master/QuickPhrase.mb && cat ./QuickPhrase.mb >> ~/.config/fcitx/data/QuickPhrase.mb && rm ./QuickPhrase.mb
     ```
 
-- 表情使用：fcitx激活状态下，按下分号`;`（默认的按键），然后输入表情的名字，例如😂名为xiaoku（笑哭），请看慢速演示：
+- 表情使用：
+
+  fcitx激活状态下（即非区域“键盘”模式下）
+
+  1. 按下分号`;`（默认的按键，可在fcitx设置-附加组件-快速输入中修改）
+
+  2. 输入表情的名字
+
+     例如😂名为xiaoku（笑哭）演示：
 
   ![示例](./example.gif)
 
@@ -28,7 +36,9 @@ fcitx：
 
 查看/添加/编辑/删除表情名：可打开QuickPhrase.mb进行相关操作；或者打开fcitx设置-附加组件-快速输入-快速输入列表。
 
-起名很麻烦……按照中文习惯命名酌情命名，参考了常用社交软件的表情名字。如果你有更为合适的命名方式，请提交issue。
+起名很麻烦……同类表情真不知道怎么起名字，不过为了尽可能包括更多的常用了交流词汇，我把看起来很相似的大笑表情我命名了daxiao（大笑）、gaoxing（高兴）、haha（哈哈）等等，按照一点聊天的“人生经验”，方便使用的时候呢总能找到相关的表情。
+
+……按照中文习惯命名酌情命名，参考了常用社交软件的表情名字。如果你有更为合适的命名方式，请提交issue。
 
 # 相关
 
